@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ - Thời trang</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* CSS từ trước */
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f4f8; /* Màu nền nhẹ */
+            color: #333; /* Màu chữ tối */
+        }
+
+        .navbar {
+            margin-bottom: 20px;
+            background-color: #343a40; /* Màu nền navbar tối */
+        }
+
+        .navbar-brand, .nav-link {
+            color: #f8f9fa; /* Màu chữ sáng */
+        }
+
+        .nav-link:hover {
+            color: #ffd700; /* Màu chữ liên kết khi hover */
+        }
+
+        header {
+            text-align: center;
+            padding: 100px 0;
+            background-color: #e9ecef; /* Màu nền cho header */
+        }
+
+        h1 {
+            color: #343a40; /* Màu chữ cho tiêu đề */
+        }
+
+        .footer {
+            position: fixed; /* Cố định footer ở đáy */
+            bottom: 0; /* Căn chỉnh footer ở đáy */
+            left: 0;
+            width: 100%;
+            background-color: #343a40; /* Màu nền footer */
+            color: #f8f9fa; /* Màu chữ footer */
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        /* Để tránh nội dung bị che bởi footer */
+        body {
+            padding-bottom: 60px; /* Thêm khoảng cách cho nội dung */
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">Thời Trang</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Trang Chủ</a></li>
+                <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+                <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
+                <li class="nav-item"><a class="nav-link" href="products.html">Sản Phẩm</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <h1>Chào Mừng Đến Với Thế Giới Thời Trang</h1>
+        <p>Khám phá phong cách và xu hướng mới nhất dành riêng cho bạn.</p>
+        <a href="products.html" class="btn btn-primary">Xem Sản Phẩm</a>
+    </header>
+
+    <footer class="footer">
+        <p>&copy; 2024 Thời Trang. Nguyễn Thị Xinh 23IT2.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

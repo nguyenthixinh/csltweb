@@ -1,0 +1,33 @@
+html, body {
+    height: 100%; /* Đặt chiều cao của body và html là 100% */
+    margin: 0; /* Loại bỏ margin mặc định */
+    font-family: 'Arial', sans-serif; /* Đặt phông chữ cho body */
+    background-color: #f8f9fa; /* Màu nền cho body */
+}
+
+.navbar {
+    margin-bottom: 20px; /* Khoảng cách dưới navbar */
+}
+
+.hero-image {
+    width: 100%; /* Đặt chiều rộng hình ảnh hero */
+    height: auto; /* Đặt chiều cao tự động */
+}
+
+.hero-text {
+    position: absolute; /* Đặt vị trí tuyệt đối cho text hero */
+    top: 50%; /* Đặt text ở giữa chiều cao */
+    left: 50%; /* Đặt text ở giữa chiều rộng */
+    transform: translate(-50%, -50%); /* Canh giữa */
+    color: white; /* Màu chữ */
+    text-align: center; /* Canh giữa chữ */
+}
+
+.footer {
+    position: absolute; /* Đặt footer ở vị trí tuyệt đối */
+    bottom: 0; /* Đặt footer ở đáy của cửa sổ */
+    left: 0; /* Đặt footer bên trái */
+    width: 100%; /* Đặt chiều rộng của footer là 100% */
+    background-color: #f8f9fa; /* Màu nền cho footer */
+    padding: 20px 0; /* Khoảng cách bên trong footer */
+}

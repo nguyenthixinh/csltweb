@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Màu nền nhẹ */
+    color: #333; /* Màu chữ tối */
+}
+
+.navbar {
+    background-color: #343a40; /* Màu nền navbar tối */
+}
+
+.navbar-brand, .nav-link {
+    color: #f8f9fa; /* Màu chữ sáng */
+}
+
+.nav-link:hover {
+    color: #ffd700; /* Màu chữ liên kết khi hover */
+}
+
+h1 {
+    color: #343a40; /* Màu chữ cho tiêu đề */
+}
+
+h3 {
+    color: #343a40; /* Màu chữ cho tiêu đề */
+}
+
+.footer {
+    background-color: #343a40; /* Màu nền footer */
+    color: #f8f9fa; /* Màu chữ footer */
+    padding: 20px 0;
+}
+
+.job {
+    margin-bottom: 20px; /* Khoảng cách cho các thẻ job */
+}
